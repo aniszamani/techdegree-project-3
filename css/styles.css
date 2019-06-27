@@ -51,9 +51,11 @@ legend {
   font-weight: 700;
 }
 
-input {
+input,
+textarea {
   border: 0;
   color: #2f4f4f;
+  transition: all 0.25s ease-in-out;
 }
 
 input:focus,
