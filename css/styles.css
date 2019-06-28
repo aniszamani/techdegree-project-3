@@ -9,7 +9,7 @@ body {
   font-size: 1em;
   line-height: 1.5;
   color: black;
-  background: white;
+  background: #89cff0;
 }
 
 h1 {
@@ -116,6 +116,10 @@ select {
   width: 100%;
 }
 
+input#zip {
+  width: 50%;
+}
+
 .fs-newsletter {
   line-height: 2;
 }
@@ -184,6 +188,10 @@ footer {
 
   .fs-contact label {
     display: inline-block;
+    width: 25%;
+  }
+
+  input#zip {
     width: 25%;
   }
 
